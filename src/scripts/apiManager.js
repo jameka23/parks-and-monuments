@@ -23,3 +23,5 @@ const putPark = (parkId, updatedParkObject) => fetch(`${apiBaseUrl}/parks/${park
   },
   body: JSON.stringify(updatedParkObject)
 })
+
+const getAllMonuments = () => fetch(`${apiBaseUrl}/monuments`).then(r => r.json())

@@ -47,16 +47,16 @@ const handleUpdate = () => {
   const editedParkState = document.querySelector(`#edit-park-state--${parkId}`);
   const editedParkLatitude = document.querySelector(`#edit-park-latitude--${parkId}`);
   const editedParkLongitude = document.querySelector(`#edit-park-longitude--${parkId}`);
-  const editedParkVisited = document.querySelector(`#edit-park-visited--${parkId}`); 
-  // console.log(editedParkName.value, editedParkState.value);
+  const editedParkVisited = document.querySelector("input[name='visited']:checked");
+  console.log(editedParkVisited);
 
 
   let editedPark = {
     name: editedParkName.value,
     state: editedParkState.value,
-    latitude: editedParkLatitude,
-    longitude: editedParkLongitude,
-    visited: editedParkVisited
+    latitude: editedParkLatitude.value,
+    longitude: editedParkLongitude.value,
+    visited: Boolean(editedParkVisited)
   };
   console.log(editedPark)
 

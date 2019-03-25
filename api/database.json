@@ -3,9 +3,9 @@
     {
       "name": "Jackson Hole",
       "state": "WY",
-      "latitude": 43.582767,
-      "longitude": -110.821999,
-      "visited": true,
+      "latitude": "43.582767",
+      "longitude": "-110.821999",
+      "visited": false,
       "id": 1
     },
     {
@@ -17,36 +17,36 @@
       "visited": true
     },
     {
-      "id": 3,
       "name": "Joshua Tree National Park",
       "state": "CA",
-      "latitude": 33.881866,
-      "longitude": -115.90065,
-      "visited": true
+      "latitude": "33.881866",
+      "longitude": "-115.90065",
+      "visited": true,
+      "id": 3
     },
     {
-      "id": 4,
       "name": "Yellowstone National Park",
       "state": "WY",
-      "latitude": 44.427895,
-      "longitude": -110.588379,
-      "visited": true
+      "latitude": "44.427895",
+      "longitude": "-110.588379",
+      "visited": true,
+      "id": 4
     },
     {
-      "id": 5,
       "name": "Great Smoky Mountains National Park",
       "state": "TN",
-      "latitude": 35.611763,
-      "longitude": -83.489548,
-      "visited": true
+      "latitude": "35.611763",
+      "longitude": "-83.489548",
+      "visited": true,
+      "id": 5
     },
     {
-      "id": 6,
       "name": "Little Sandy National Wildlife Refuge",
       "state": "TX",
-      "latitude": 32.590797,
-      "longitude": -95.273666,
-      "visited": false
+      "latitude": "32.590797",
+      "longitude": "-95.273666",
+      "visited": true,
+      "id": 6
     },
     {
       "id": 7,
@@ -70,7 +70,7 @@
       "state": "AK",
       "latitude": 67.915199,
       "longitude": -153.46373,
-      "visited": false
+      "visited": true
     },
     {
       "id": 10,
