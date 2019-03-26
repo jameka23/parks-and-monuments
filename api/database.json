@@ -49,14 +49,6 @@
       "id": 6
     },
     {
-      "id": 7,
-      "name": "Mount Rainier National Park",
-      "state": "WA",
-      "latitude": 46.879967,
-      "longitude": -121.726906,
-      "visited": true
-    },
-    {
       "id": 8,
       "name": "Yosemite National Park",
       "state": "CA",
@@ -139,12 +131,12 @@
       "visited": false
     },
     {
-      "id": 8,
       "name": "Mount St. Helens",
       "state": "WA",
-      "area": 113205,
+      "area": "113205",
       "dateEstablished": "08-27-1982",
-      "visited": false
+      "visited": true,
+      "id": 8
     },
     {
       "id": 9,

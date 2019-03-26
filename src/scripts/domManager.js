@@ -11,7 +11,6 @@ const buildElement = (elementType, elementId, elementTextContent, elementValue, 
   if (elementValue === true && elementAttribute === "radio"){
     console.log(elementValue);
     htmlElement.setAttribute("type", elementAttribute);
-    // htmlElement.setAttribute("checked", Boolean(elementValue));
     htmlElement.setAttribute("name", "visited");
     htmlElement.setAttribute("value", Boolean(elementValue));
   }else if(elementValue === false && elementAttribute === "radio"){
@@ -34,3 +33,5 @@ const clearElement = domElement => {
 
 const displayContainer = document.querySelector("#display-container");
 displayContainer.appendChild(buildElement("section", "national--parks"));
+displayContainer.appendChild(buildElement("section", "national--monuments"));
+// must append a nother display container for all the monuments
