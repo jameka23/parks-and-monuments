@@ -29,7 +29,7 @@ const handleEdit = () => {
   const parkArticle = document.querySelector(`#national-park--${parkId}`);
   clearElement(parkArticle);
 
-  getPark(parkId).then(monumentToEdit => {
+  getPark(parkId).then(parkToEdit => {
     const editFormForPark = parkEditForm(parkToEdit);
     parkArticle.appendChild(editFormForPark);
   });
